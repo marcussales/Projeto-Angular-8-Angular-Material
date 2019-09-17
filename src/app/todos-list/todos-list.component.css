@@ -5,4 +5,5 @@ table {
   td.mat-cell {
     width: 15%;
     text-align: left;
+    padding-right: 15px;
   }
