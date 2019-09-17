@@ -1,0 +1,13 @@
+a {
+    text-decoration: none;
+}
+
+.menu-btn {
+    color: white;
+    background: #3F51B5;
+    border: #3F51B5;
+}
+
+.icone-lista {
+    margin-left: 15px;
+}

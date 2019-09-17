@@ -1,0 +1,30 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+            <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Menu" class="menu-btn">
+                    <mat-icon>more_vert</mat-icon>
+                  </button>
+                  <mat-menu #menu="matMenu">
+                  <a href="/posts/">
+                    <button mat-menu-item>
+                      <mat-icon color="primary">inbox</mat-icon>
+                      <span>Postagens</span>
+                    </button>
+                  </a>
+                  <a href="/albums/">
+                    <button mat-menu-item>
+                      <mat-icon color="primary">photo</mat-icon>
+                      <span>Albuns</span>
+                    </button>
+                  </a>
+                  <a href="/todos/">
+                    <button mat-menu-item>
+                      <mat-icon color="primary">verified_user</mat-icon>
+                      <span>To-Dos</span>
+                    </button>
+                </a>
+                  </mat-menu>
+            
+      <span>Teste Framework BH</span>
+      <mat-icon class="example-icon" aria-hidden="false" aria-label="Icone de lista" class="icone-lista">list_alt</mat-icon>
+    </mat-toolbar-row>
+</mat-toolbar>

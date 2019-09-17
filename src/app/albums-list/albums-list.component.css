@@ -1,0 +1,8 @@
+table {
+    width: 100%;
+}
+
+td.mat-cell {
+    width: 5%;
+    text-align: left;
+  }
